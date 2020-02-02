@@ -1,0 +1,22 @@
+#signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #6ebbcc;
+  font-family: "Roboto", sans-serif;
+}
+
+#sign-text {
+  font-weight: bold;
+  margin: auto;
+}
+
+#logos {
+  margin: 15px auto;
+}
+
+a {
+  color: #6ebbcc;
+  font-size: 30px;
+  margin: 0 20px;
+}
