@@ -1,0 +1,60 @@
+#buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-raw {
+  display: flex;
+}
+
+button {
+  border: 0;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background: radial-gradient(#a7a7a7, #9c9c9c);
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6d7177;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  box-shadow: inset #bdbdbd -4px -4px 10px 1px, inset #bfbfbf 4px 4px 10px 1px,
+    #9c9a96 0px 3px 2px 0px, #000 0px 3px 0px 0px, #3a3939 0px 4px 0px 0px,
+    #959595 2px 2px 10px 0px, #777 0px 3px 3px 1px;
+  cursor: pointer;
+}
+
+button:active {
+  height: 59px;
+  margin: 6px 5px 4px 5px;
+  padding-top: 1px;
+  border-radius: 12%;
+}
+
+.button-double {
+  width: 130px;
+  border-radius: 8%;
+}
+
+.button-double:active {
+  border-radius: 7%;
+}
+
+.button-clear {
+  background: radial-gradient(#963e3e, #da5656);
+  color: #c8cacc;
+  box-shadow: inset #bf5353 -4px -4px 10px 1px, inset #c96262 4px 4px 10px 1px,
+    #882014 0px 3px 2px 0px, #000 0px 3px 0px 0px, #3a3939 0px 4px 0px 0px,
+    #959595 2px 2px 10px 0px, #777 0px 3px 3px 1px;
+}
+
+.button-operand {
+  background: radial-gradient(#b77747, #ea983f);
+  color: #d4e1f6;
+  box-shadow: inset #a68b58 -4px -4px 10px 1px, inset #ac9f85 4px 4px 10px 1px,
+    #885b14 0px 3px 2px 0px, #000 0px 3px 0px 0px, #3a3939 0px 4px 0px 0px,
+    #959595 2px 2px 10px 0px, #777 0px 3px 3px 1px;
+}

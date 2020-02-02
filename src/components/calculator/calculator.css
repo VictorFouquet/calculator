@@ -1,0 +1,28 @@
+.calc {
+  border-radius: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 550px;
+  margin: 80px auto;
+  background-color: #cbcaca;
+  box-shadow: inset #838383 -3px -5px 8px 0px, inset #c0b5b5 -3px -5px 8px 0px,
+    inset #9b9b9b -1px -5px 15px 5px, #585858 3px 3px 2px 0px,
+    #909090 10px 19px 25px 0px;
+}
+
+.calc-texture {
+  width: 87%;
+  height: 91%;
+  border-radius: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(#ececec, #d5cfcf);
+  border: solid #3b2207 3px;
+  box-shadow: inset white 4px 4px 5px 0px, inset black -1px -1px 5px 0px,
+    #d5cfcf 1px 1px 5px 0px, #4c4c4c -1px -2px 3px 0px;
+}
